@@ -6,4 +6,4 @@ numbers.each do |number|
     sum += number*2
 end
 puts sum
-
+#12
