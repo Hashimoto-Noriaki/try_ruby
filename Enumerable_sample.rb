@@ -34,3 +34,20 @@ numbers.find do |number|
 end
 p even_number
 #[2]
+
+# numbers = [1,2,3,4,5]
+# # #eachの例
+# sum = 
+# numbers.each do |number|
+#     sum = result + number
+# end
+# puts sum
+
+#injectの例
+sum = 
+numbers.inject do |result,number|
+    result + number
+end
+
+puts sum
+#15
