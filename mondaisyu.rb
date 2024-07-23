@@ -42,3 +42,15 @@ p array_1 + array_2 + array_3
 
 # 2
 # ["Ruby", "PHP", 1, 2, 3, "cody", "guy"]
+
+
+names = ["teru","takuro","hisashi","jiro"]
+names.map do |name|
+puts name.upcase
+end
+
+# TERU
+# TAKURO
+# HISASHI
+# JIRO
+
