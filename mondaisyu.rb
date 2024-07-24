@@ -54,3 +54,6 @@ end
 # HISASHI
 # JIRO
 
+array = [4,1,3,1,5,0,1,8,9,2]
+p result = array[2..5]
+#[3, 1, 5, 0]
