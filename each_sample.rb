@@ -15,3 +15,11 @@ end
 # NO.1: 1
 # NO.2: 2
 # NO.3: 3
+
+fruits = ["apple","orange","grape"]
+fruits.each.with_index(1) do |fruit,index|
+puts "NO.#{index}: #{fruit}"
+end
+# NO.1: apple
+# NO.2: orange
+# NO.3: grape
