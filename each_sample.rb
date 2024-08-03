@@ -23,3 +23,11 @@ end
 # NO.1: apple
 # NO.2: orange
 # NO.3: grape
+
+numbers = [10000,2500,7000,500]
+sum = 0
+numbers.each do |number|
+    sum += number/2
+end
+puts sum
+#10000
