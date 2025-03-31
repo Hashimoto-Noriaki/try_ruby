@@ -31,3 +31,22 @@ numbers.each do |number|
 end
 puts sum
 #10000
+
+months = ["January","February","March","April" ,"May" ,"June" ,"July","August","September","October","November","December"]
+
+    months.each.with_index(1) do |month,index|
+        puts "英語で#{index}月は#{month}です"
+    end
+
+    # 英語で1月はJanuaryです
+    # 英語で2月はFebruaryです
+    # 英語で3月はMarchです
+    # 英語で4月はAprilです
+    # 英語で5月はMayです
+    # 英語で6月はJuneです
+    # 英語で7月はJulyです
+    # 英語で8月はAugustです
+    # 英語で9月はSeptemberです
+    # 英語で10月はOctoberです
+    # 英語で11月はNovemberです
+    # 英語で12月はDecemberです
