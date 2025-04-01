@@ -50,3 +50,16 @@ months = ["January","February","March","April" ,"May" ,"June" ,"July","August","
     # 英語で10月はOctoberです
     # 英語で11月はNovemberです
     # 英語で12月はDecemberです
+
+numbers = [0,10,20,30,40]
+
+add_numbers = numbers.map do |number|
+    number + 10
+end
+
+puts add_numbers
+# 10
+# 20
+# 30
+# 40
+# 50
